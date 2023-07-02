@@ -1,0 +1,10 @@
+.Net Core Version Used: 7.0.0
+Angular Version Used: 15.0.0
+
+Recommended Node Version: 18.0.0
+Recommended Visual Studio: 2022
+
+Node Packages Foler was deleted to make the extraction of the zip file much efficient.
+As a result please run "npm install" on the ClientApp before running the app.
+
+Upon Starting The Project Wait For the SPA Proxy To Finish(Microsoft's Doing)

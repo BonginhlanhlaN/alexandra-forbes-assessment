@@ -1,0 +1,94 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "crunch.api.ui/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.SpaProxy": "7.0.7",
+          "System.IO.Abstractions": "19.2.29"
+        },
+        "runtime": {
+          "crunch.api.ui.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.SpaProxy/7.0.7": {
+        "runtime": {
+          "lib/net7.0/Microsoft.AspNetCore.SpaProxy.dll": {
+            "assemblyVersion": "7.0.7.0",
+            "fileVersion": "7.0.723.27408"
+          }
+        }
+      },
+      "System.IO.Abstractions/19.2.29": {
+        "dependencies": {
+          "TestableIO.System.IO.Abstractions": "19.2.29",
+          "TestableIO.System.IO.Abstractions.Wrappers": "19.2.29"
+        },
+        "runtime": {
+          "lib/net7.0/System.IO.Abstractions.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.2.29.16839"
+          }
+        }
+      },
+      "TestableIO.System.IO.Abstractions/19.2.29": {
+        "runtime": {
+          "lib/net7.0/TestableIO.System.IO.Abstractions.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.2.29.16839"
+          }
+        }
+      },
+      "TestableIO.System.IO.Abstractions.Wrappers/19.2.29": {
+        "dependencies": {
+          "TestableIO.System.IO.Abstractions": "19.2.29"
+        },
+        "runtime": {
+          "lib/net7.0/TestableIO.System.IO.Abstractions.Wrappers.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.2.29.16839"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "crunch.api.ui/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.SpaProxy/7.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A+VpG2Xas4MxYyu5JttKv7JzxgkS7FdD+q2UoQlq9iyCMJrm0XGxbsWCNugR7AF4X51Y+aEZvk8UUBdmAym8Gw==",
+      "path": "microsoft.aspnetcore.spaproxy/7.0.7",
+      "hashPath": "microsoft.aspnetcore.spaproxy.7.0.7.nupkg.sha512"
+    },
+    "System.IO.Abstractions/19.2.29": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-G6Cv4Uf3aAE5Idcec1GUHMhqaKmzdrYfAZsxnRE+aW8yIrDs/qTC7yxG2FUDxuIMOYOuhaWJWaUfxpTjCenWZA==",
+      "path": "system.io.abstractions/19.2.29",
+      "hashPath": "system.io.abstractions.19.2.29.nupkg.sha512"
+    },
+    "TestableIO.System.IO.Abstractions/19.2.29": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sqZAF3+li6MCKr1jWEonv6wVvhZfVGgwWWsKx8dfxlARWQNw543ZJDlU0Yn7ce8UBeOOzWLwBNl2TAPPuQqAqQ==",
+      "path": "testableio.system.io.abstractions/19.2.29",
+      "hashPath": "testableio.system.io.abstractions.19.2.29.nupkg.sha512"
+    },
+    "TestableIO.System.IO.Abstractions.Wrappers/19.2.29": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oO00myIO1cjVYgDj46AXY2Oeba3pz89HhsQ1uuFRSP9bwn2cUB1Y93EsGL4nSPMms2Wgikv8i58AVwQLGDEU7w==",
+      "path": "testableio.system.io.abstractions.wrappers/19.2.29",
+      "hashPath": "testableio.system.io.abstractions.wrappers.19.2.29.nupkg.sha512"
+    }
+  }
+}
